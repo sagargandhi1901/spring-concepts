@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 public class StudentService {
 
     @Autowired
-    @Qualifier("helperImpl2")
+//    @Qualifier("helperImpl2")
     private Helper helper;
 
     public Helper getHelper() {
